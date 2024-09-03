@@ -39,7 +39,7 @@ The Raspberry Pi Pico is meant to be connected to the power button and LED pins 
     - Alternatively, use the [MicroPico VSCode extension](https://marketplace.visualstudio.com/items?itemName=paulober.pico-w-go) to upload the files.
 
 4. **Configure Wi-Fi**:
-    - Create a `config.py` file with your Wi-Fi SSID and password:
+    - Update the `config.py` file with your Wi-Fi SSID and password:
     ```python
     SSID = "your_wifi_ssid"
     PASSWORD = "your_wifi_password"
