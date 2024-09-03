@@ -71,8 +71,9 @@ async def monitor_led():
             last_time = current_time
             last_state = current_state
             print('Power state:', power_state, '| LED:', current_state, '| Elapsed ms:', elapsed_time)
-        elif power_state is not 'sleeping':
+        elif power_state is not 'sleeping' or time.ticks_diff(time.ticks_ms(), last_time) > 750:
             power_state = 'on' if current_state == 1 else 'off'
+            last_state = -1 # Reset state
         await asyncio.sleep(0.1)
 
 async def handle_client(reader, writer):
