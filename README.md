@@ -76,8 +76,3 @@ Contributions are welcome! Feel free to submit a pull request or open an issue i
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- [MicroPython Documentation](https://docs.micropython.org/)
-- [uasyncio](https://docs.micropython.org/en/latest/library/uasyncio.html) for async functionality
