@@ -30,8 +30,8 @@ The Raspberry Pi Pico is meant to be connected to the power button and LED pins 
 
 2. **Clone or Download the Repository**:
     ```bash
-    git clone https://github.com/yourusername/pico-w-power-button.git
-    cd pico-w-power-button
+    git clone https://github.com/zanderp25/pico-power.git
+    cd pico-power
     ```
 
 3. **Upload the Code**:
